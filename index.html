@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <title>Nightbar</title>
 <meta name="viewport" content="width=device-width">
-<script src="/nightbar.js"></script>
+<script src="https://themikefuller.github.io/Nightbar/src/nightbar.js"></script>
 <style>
 
   body {
@@ -13,7 +13,7 @@
     text-decoration: none;
   }
 
-  #nightbar {
+  #nightbar,.info {
     margin: 10px auto;
     width: 100%;
     max-width: 700px;
@@ -22,7 +22,7 @@
 </style>
 
 <div id="nightbar"></div>
-
+<div class="info"><a href="https://github.com/themikefuller/Nightbar">Get the source code</a></div>
 <script>
   var nightbar = document.getElementById('nightbar');
   nightbar.appendChild(Nightbar());
